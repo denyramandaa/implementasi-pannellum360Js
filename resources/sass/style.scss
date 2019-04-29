@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+#canvas {
+	height: 600px;
+	width: 970px;
+}
+
+/*------------copy start here----------*/
+
+.map-icons{
+    height: 30px;
+    width: 30px;
+}
+.up{
+    @extend .map-icons;
+    background: url("../images/icons/arrow-up.png") no-repeat center;
+    background-size: cover;
+}
+.down{
+    @extend .map-icons;
+    background: url("../images/icons/arrow-down.png") no-repeat center;
+    background-size: cover;
+}
